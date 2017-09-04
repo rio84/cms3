@@ -1,0 +1,16 @@
+﻿body{background:#FFE8E8;}
+.mode_box{border:solid 1px #CE1C1C;background:#FFE8E8;}
+.mode_box .mode_title{text-indent:35px;line-height:31px;height:31px;font-weight:700;}
+.mode_box .title002{display:none;}
+.bg_spaceop{background:#5C1744;}
+.mode_title{background:url(../../../theme/red/img/redtitle.jpg) no-repeat;}
+.pic_left .pro_show img{border:solid 1px #B5799F;}
+.pic_act .pro_show img{border:solid 1px #B5799F;}
+.pic_act .pro_show a:hover img{background:#FEE9F0;border:solid 1px #B5799F;}
+
+/*
+.bg_header{background:#FEFBF4;}
+.bd_title{border:solid 1px #F8D791;}
+.bg_bd_nav{border:solid 1px #BFF59A;background:#BFF59A;}
+.bg_nav{background:#ECFCE0;}
+*/

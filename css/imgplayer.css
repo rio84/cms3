@@ -1,0 +1,189 @@
+﻿body
+{
+	background-color: #A1D06B;
+	height: 100%;
+	width: 100%;
+}
+.playerbox
+{
+	background: #ffffff;
+	font-family: Arial;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 600px;
+}
+.bigimgarea
+{
+	overflow: hidden;
+}
+.bigimgarea img
+{
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+.introducearea, .indexarea
+{
+	overflow: hidden;
+	position: absolute;
+}
+
+/*
+
+以下为三种不同播放器类型
+
+*/
+
+/*       小图作为索引   */
+.playerbox.type_smallimg
+{
+}
+.type_smallimg .bigimgarea
+{
+	margin: 10px auto;
+	height: 300px;
+	width: 460px;
+}
+.type_smallimg .introducearea
+{
+	height: 100px;
+	left: 0;
+	margin: 0 auto;
+	top: 320px;
+	width: 100%;
+}
+.type_smallimg .introducearea h2
+{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.type_smallimg .indexarea
+{
+	left: 0;
+	top: 420px;
+	width: 100%;
+}
+.type_smallimg .indexarea .type_title,.type_smallimg .indexarea .type_pager
+{
+	display:none;
+}
+.type_smallimg .indexarea a
+{
+	display: inline;
+	border: none;
+	float: left;
+	height: 50px;
+	margin: 8px;
+	padding: 2px 4px;
+	width: 80px;
+}
+.type_smallimg .indexarea a:hover
+{
+	background: #f0f0f0;
+}
+.type_smallimg .indexarea a.now
+{
+	background: #c0c0c0;
+}
+.type_smallimg .indexarea a img
+{
+	background: #ffffff;
+	border: none;
+	height: 100%;
+	width: 100%;
+}
+/*       页码作为索引   */
+.playerbox.type_pager
+{
+}
+.type_pager .bigimgarea
+{
+	height: 100%;
+	width: 100%;
+}
+.type_pager .introducearea
+{
+	bottom: 0;
+	left: 0;
+	margin: 0 0 10px 0;
+	text-align: left;
+}
+.type_pager .indexarea
+{
+	bottom: 0;
+	right: 0;
+	margin: 0 0 10px 0;
+}
+.type_pager .indexarea .type_title,.type_pager .indexarea .type_smallimg
+{
+	display:none;
+}
+.type_pager .indexarea a
+{
+	background: #000000;
+	border: solid 1px blue;
+	color: Blue;
+	display: inline;
+	float: right;
+	height: 24px;
+	line-height: 24px;
+	margin: 8px;
+	padding: 2px 4px;
+	text-decoration: none;
+	width: 20px;
+}
+.type_pager .indexarea a:hover
+{
+	background: #c0c0c0;
+}
+.type_pager .indexarea a.now
+{
+	background: #f0f0f0;
+}
+/*       标题作为索引   */
+.playerbox.type_title
+{
+	
+}
+.type_title .bigimgarea
+{
+	height: 100%;
+	width: 100%;
+}
+.type_title .introducearea
+{
+	display:none;
+}
+.type_title .indexarea
+{
+	bottom:2px;
+	height: 25px;
+	left:0;
+	line-height:25px;
+	width: 100%;
+}
+.type_title .indexarea .type_pager,.type_title .indexarea .type_smallimg
+{
+	display:none;
+}
+.type_title .indexarea a
+{
+	background:#a0a0a0;
+	color:#ffffff;
+	margin:0 1px;
+	padding:2px 10px;
+	text-decoration:none;
+	
+}
+.type_title .indexarea a:hover
+{
+	background: #c0c0c0;
+	color:#505050;
+}
+.type_title .indexarea a.now
+{
+	background: #f0f0f0;
+	color:#2f2f2f;
+}

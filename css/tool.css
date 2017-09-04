@@ -1,0 +1,1083 @@
+﻿/*--
+
+-*-- 自定义按钮
+
+-*----------------------------*/
+#aChangeLayout
+{
+	background:#000000;
+	color: #FFFFFF;
+	font-weight:700;
+	font-size:14px;
+	padding: 3px 15px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+/*
+
+	操作区
+
+ */
+
+/* --------------------
+
+ *   custom
+
+-* ----------------------------*/
+#changeLayout dl
+{
+	height: 28px;
+	line-height: 28px;
+}
+#changeLayout dt
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#changeLayout dl dd
+{
+	background: url(../img/custom_bg.png) left -306px;
+	float: left;
+	margin: 0 8px;
+	padding: 0;
+}
+#changeLayout dl dd.tag
+{
+	cursor: pointer;
+}
+#changeLayout dl dd.now
+{
+	background: url(../img/custom_bg.png) right -201px;
+	height: 31px;
+	line-height: 35px;
+	padding-right: 15px;
+}
+#changeLayout dl dd.now span
+{
+	background: url(../img/custom_bg.png) -10px -264px;
+	color: #374152;
+	font-weight: 700;
+	height: 31px;
+	line-height: 35px;
+	padding-left: 15px;
+}
+#changeLayout div
+{
+	padding: 10px 0 0 0;
+}
+#changeLayout
+{
+	background: #606165 url(../img/bg_gb_custom.png) repeat-x;
+	border: solid 1px #698392;
+	height: 288px;
+}
+.save
+{
+	background: url(../img/custom_bg.png) no-repeat 0 -341px;
+	color: #55483E;
+	display: inline-block;
+	font-weight: 700;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	width: 65px;
+}
+.close
+{
+	background: url(../img/custom_bg.png) no-repeat -68px -341px;
+	color: #374152;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	width: 65px;
+}
+.layout-btn
+{
+	background: url(../img/custom_bg.png) no-repeat 0 -198px;
+	float: left;
+	height: 57px;
+	margin: 4px 2px 0;
+	width: 56px;
+}
+.layout-btn:hover, .layout-btn.selected
+{
+	background-position: -59px -198px;
+}
+.layout-btn span
+{
+	background: url(../img/custom_bg.png) no-repeat;
+	display: block;
+	height: 39px;
+	margin: 4px 0 0 5px;
+	width: 43px;
+}
+#layout-1_3 span
+{
+	background-position: -322px -130px;
+}
+#layout-3_1 span
+{
+	background-position: -381px -130px;
+}
+#layout-1_2_1 span
+{
+	background-position: -440px -130px;
+}
+#layout-1_1_2 span
+{
+	background-position: -499px -130px;
+}
+#layout-2_1_1 span
+{
+	background-position: -558px -130px;
+}
+#layout-free span
+{
+	background-position: -381px -191px;
+}
+#divstyle a
+{
+	background: transparent url(/img/custom_bg.png) no-repeat scroll -231px -335px;
+	float: left;
+	height: 83px;
+	margin: 5px 0 6px 6px;
+	width: 77px;
+}
+#divstyle a:hover, #divstyle a.selected
+{
+	background-position: -149px -335px;
+}
+#divstyle a span
+{
+	background-image: url(/img/custom_icon.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 14px;
+	margin: 8px 8px 0 8px;
+	padding-top: 52px;
+	text-align: center;
+	width: 61px;
+}
+#greenstyle span
+{
+	background-position: -574px -183px;
+}
+#pinkstyle span
+{
+	background-position: -82px -116px;
+}
+#bluestyle span
+{
+	background-position: -246px -116px;
+}
+#orangestyle span
+{
+	background-position: -410px -116px;
+}
+#lightpinkstyle span
+{
+	background-position: 0 -116px;
+}
+#newstyle span
+{
+	background-position: -166px -116px;
+}
+#purplestyle span
+{
+	background-position: -410px -183px;
+}
+#divmodules a
+{
+	display: inline;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px;
+	padding-top: 64px;
+	text-align: center;
+	width: 88px;
+}
+#divmodules a.player
+{
+	background: url(/img/player.gif) no-repeat;
+}
+#divmodules a.imgplayer
+{
+	background: url(/img/icon_imgplayer.gif) no-repeat;
+}
+#divmodules a.flashplayer
+{
+	background:url(/img/flashplayer.gif) no-repeat;
+}
+#divmastermodules a
+{
+	border: solid 3px #8FB2DC;
+	display: inline;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px;
+	padding-top: 118px;
+	text-align: center;
+	width: 164px;
+}
+#divmastermodules a.mastermodule
+{
+	background: #fff url(/img/mastermodule.gif) no-repeat;
+}
+#divmastermodules a.l-r
+{
+	background-position: -188px -2px;
+}
+#divmastermodules a.t-b
+{
+	background-position: -364px -2px;
+}
+#divmastermodules a.tab
+{
+	background-position: -8px -2px;
+}
+/*
+
+ *--------------------------------------------------------------------------------end
+
+*/
+/*
+
+	单个对象操作区
+
+ */
+ #greenstyle
+{
+	background: #BBE730;
+}
+#bluestyle
+{
+	background: #97D0EE;
+}
+#pinkstyle
+{
+	background: #FFC7DB;
+}
+/*------------------------
+
+-* -------------- module operation 
+
+-*------------------------------------------*/
+#singleModule
+{
+	background: #FFFFFF;
+	border: solid 2px #799AC9;
+	height: 200px;
+	min-width: 960px;
+	overflow: visible;
+	position: fixed;
+	text-align:left;
+	top: 0;
+	width:100%;
+	_width:960px;
+	z-index: 9999;
+}
+#singleModule p
+{
+	margin: 2px 0;
+}
+/*  my select  */
+#singleModule .opt
+{
+	background: #fff;
+	border: solid 1px #333333;
+}
+#singleModule .opt dd
+{
+	cursor: pointer;
+}
+#singleModule .opt_hover
+{
+	background-color: #cccccc;
+}
+input.pointdown
+{
+	background: url(/img/pointdown.gif) no-repeat 80px 4px;
+	padding-right: 12px;
+}
+#singleModule .label
+{
+	display: inline-block;
+	height: 100%;
+	text-align: right;
+	padding-right: 12px;
+	width: 100px;
+}
+#divborder .label, #divmargin .label
+{
+	height: 100%;
+	text-align: right;
+	padding-right: 12px;
+	width: 20px;
+}
+#tags
+{
+	border-bottom: solid 1px #ccc;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+}
+#tags a
+{
+	background: #878F93 url(/img/tabs_bg.png) repeat-x 0 100%;
+	border-right: 1px solid #304049;
+	color: #fff;
+	float: left;
+	height: 30px;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+}
+#tags a:hover
+{
+	background: #1E2529 none;
+	color: #9EBAC8;
+	text-decoration: underline;
+}
+#tags a.clicked
+{
+	background: #ffffff;
+	border: solid 1px #DEDEDE;
+	border-top: none;
+	border-bottom: none;
+	color: #336699;
+	font-weight: 700;
+	height: 30px;
+	position: relative;
+	top: 1px;
+}
+#tags a.clicked:hover
+{
+	background: #fff;
+	color: #336699;
+}
+#tagscontent
+{
+	height: 170px;
+	width: 100%;
+}
+#tagscontent fieldset
+{
+	border: solid 1px #ccc;
+	display: inline;
+	float: left;
+	margin: 5px 10px;
+	padding: 10px;
+}
+.clickcolor
+{
+	background: url(/img/color_picker.png) no-repeat center center;
+	cursor: pointer;
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+}
+#fsbg
+{
+	width: 30%;
+}
+#divborder fieldset
+{
+	width: 15%;
+}
+#fsparagraph
+{
+	width: 50%;
+}
+#fsfont
+{
+	width: 30%;
+}
+.btnback
+{
+	background: transparent url(/img/level_up_16x16.gif) no-repeat scroll;
+	cursor: pointer;
+	height: 16px;
+	margin-left: 10px;
+	margin-top: 8px;
+	padding-top: 0px;
+	width: 18px;	
+}
+/*-----------
+
+-*-----------------盒模型
+
+-*-----------------------------*/
+#divBoxModel
+{
+	background: url(/img/boxmodel.png) no-repeat -66px -32px;
+	height: 168px;
+	position: relative;
+	width: 220px;
+}
+#divBoxModel input
+{
+	background: #fff none;
+	border: solid 1px #112233;
+	height: 16px;
+	width: 40px;
+}
+#divBoxModel span
+{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+}
+#margin-top
+{
+	left: 105px;
+	top: 2px;
+}
+#margin-left
+{
+	left: 8px;
+	top: 78px;
+}
+#margin-right
+{
+	left: 205px;
+	top: 78px;
+}
+#margin-bottom
+{
+	left: 105px;
+	top: 152px;
+}
+#padding-top
+{
+	left: 105px;
+	top: 42px;
+}
+#padding-left
+{
+	left: 48px;
+	top: 78px;
+}
+#padding-right
+{
+	left: 165px;
+	top: 78px;
+}
+#padding-bottom
+{
+	left: 105px;
+	top: 112px;
+}
+#border-top-width
+{
+	left: 105px;
+	top: 22px;
+}
+#border-left-width
+{
+	left: 28px;
+	top: 78px;
+}
+#border-right-width
+{
+	left: 185px;
+	top: 78px;
+}
+#border-bottom-width
+{
+	left: 105px;
+	top: 132px;
+}
+#offset
+{
+	left: 62px;
+	top: 78px;
+	text-align: center;
+	width: 88px;
+}
+#width
+{
+	left: 0;
+	text-align: right;
+	top: 0;
+	width: 38px;
+}
+#height
+{
+	right: 0;
+	text-align: left;
+	top: 0;
+	width: 38px;
+}
+/* --------------------
+
+ *   master
+
+-* ----------------------------*/
+.mastertabs
+{
+	background: #878F93 url(/img/tabs_bg.png) repeat-x 0 100%;
+	border-right: 1px solid #304049;
+	color: #fff;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.mastertabs:hover
+{
+	background: #1E2529 none;
+	color: #9EBAC8;
+	text-decoration: underline;
+}
+.mastertabs_clicked
+{
+	background: transparent;
+	border: solid 1px #DEDEDE;
+	border-top: none;
+	border-bottom: none;
+	color: #336699;
+	font-weight: 700;
+	height: 25px;
+	position: relative;
+	top: 1px;
+}
+.mastertabs_clicked:hover
+{
+	background: #transparent;
+	color: #336699;
+}
+.mastertop, .masterbottom
+{
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.masterbottom, .masterright
+{
+	background: #c0c0c0;
+}
+.masterleft, .masterright
+{
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 50%;
+}
+.masterleft, .mastertop
+{
+	background: #cccccc;
+}
+.masterbody
+{
+	height: 100%;
+}
+.master_box
+{
+	overflow: hidden;
+	padding-top: 27px;
+}
+.master_title
+{
+	margin-top: -27px;
+}
+/* --------------------
+
+ *   parts
+
+-* ----------------------------*/
+.zoneicon
+{
+	background: url(../img/custom_bg.png) no-repeat left -468px;
+	height: 28px;
+	width: 75px;
+}
+/*
+
+ *--------------------------------------------------------------------------------end
+
+*/
+ /*
+
+	插件
+
+ */
+ .ui-sortable-placeholder
+{
+	border: dashed 2px #c2c2c2;
+}
+.holder
+{
+	border: dashed 2px #c2c2c2;
+}
+.helper
+{
+	background: #123456;
+	border: solid 2px #0011cc;
+	color: #fff;
+	line-height: 25px;
+	overflow: hidden;
+	width: 100px;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+.ui-sortable-selector
+{
+	display: inline;
+	float: left;
+	min-height: 100px;
+	_height: 100px;
+}
+.ui-sortable-helper
+{
+	background: #123456;
+	border: solid 2px #0011cc;
+	color: #fff;
+	line-height: 25px;
+	overflow: hidden;
+	width: 100px;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+/* ------------------
+
+ * ------------------------>> plugin css
+
+-* ----------------------------------------*/
+.contextMenu
+{
+	border: solid 2px #123456;
+	display: none;
+	width: 100px;
+	z-index: 100001;
+}
+/*--
+
+   resizable 
+
+ -*--------------------------------------*/
+.ui-resizable
+{
+	position: relative;
+}
+.ui-resizable-handle
+{
+	display: block;
+	font-size: 0.1px;
+	position: absolute;
+}
+.ui-resizable-e
+{
+	cursor: e-resize;
+	height: 100%;
+	right: -5px;
+	top: 0;
+	width: 7px;
+}
+.ui-resizable-s
+{
+	bottom: -5px;
+	cursor: s-resize;
+	height: 7px;
+	right: -5px;
+	width: 100%;
+}
+.ui-resizable-se
+{
+	bottom: 1px;
+	cursor: se-resize;
+	right: 1px;
+}
+.ui-icon
+{
+	background-image: url(/img/ui-icons.gif);
+	background-position: -64px -224px;
+	height: 16px;
+	width: 16px;
+}
+.ui-icon-gripsmall-diagonal-se
+{
+	background-position: -64px -224px;
+}
+.myresize-se
+{
+	background-image: url(/img/ui-icons.gif);
+	background-position: -64px -224px;
+}
+.ui-icon-gripsmall-diagonal-se
+{
+	background-position: -64px -224px;
+}
+/*
+
+ *--------------------------------------------------------------------------------end
+
+*/
+/* ------------------
+
+ * ------------------------>> public
+
+-* ----------------------------------------*/
+.aligncenter
+{
+	text-align: center;
+}
+.btnedit
+{
+	background: url(/img/button.gif) no-repeat -10px -662px;
+	cursor: pointer;
+	float: right;
+	height: 16px;
+	margin: 2px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 16px;
+	z-index: 1;
+}
+.btnaddmodule
+{
+	background: url(/img/button.gif) no-repeat -128px -1025px;
+	cursor: pointer;
+	float: right;
+	height: 16px;
+	margin: 2px;
+	position: absolute;
+	right: 18px;
+	top: 0;
+	width: 16px;
+	z-index: 1;
+}
+.btnrecover
+{
+	background: url(/img/button.gif) no-repeat -490px -272px;
+	cursor: pointer;
+	float: left;
+	height: 16px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 16px;
+}
+.contentsign
+{
+	background:url(/img/button.gif) no-repeat  -712px -65px;
+	cursor:pointer;
+	display:block;
+	height:18px;
+	width:40px;
+}
+.fleft
+{
+	float: left;
+}
+.fright
+{
+	float: right;
+}
+.inline
+{
+	display: inline;
+}
+.nodisplay
+{
+	display: none;
+}
+#dialogContent
+{
+	/* 	background:url(../img/custom_icon.png) no-repeat 40px -880px;*/
+	height: 100%;
+}
+#dialogContent p
+{
+	margin: 10px 0;
+	text-align: center;
+}
+#dialogContent p span
+{
+	float: left;
+	text-align: right;
+	width: 100px;
+}
+#dialogLeft
+{
+	width: 300px;
+}
+#dialogRight
+{
+}
+.txt150
+{
+	height: 16px;
+	width: 150px;
+}
+.txt80
+{
+	height: 16px;
+	width: 80px;
+}
+.select80
+{
+	height: 16px;
+	width: 80px;
+}
+.btn65
+{
+	height: 25px;
+	width: 65px;
+}
+#loading
+{
+	background: url(../img/loading.gif) no-repeat center center;
+	display: none;
+	height: 200px;
+	position: absolute;
+	width: 200px;
+	z-index: 1000000;
+}
+
+
+/*-----------
+
+-*  image player
+
+-*---------------------*/
+.pagination a
+{
+	background: #c0c0c0;
+	border: solid 1px;
+	border-color: Silver Gray;
+	color: #fc0;
+	display: inline-block;
+	font-weight: bold;
+	height: 12px;
+	line-height: 12px;
+	overflow: hidden;
+	padding: 5px 3px;
+	text-align: center;
+	text-decoration: none;
+	width: 12px;
+}
+.pagination a.current
+{
+	background: #ff1100;
+}
+#loopedSlider
+{
+	border: solid 2px #212345;
+	height: 375px;
+	margin: 0 auto;
+	position: relative;
+	width: 500px;
+}
+#loopedSlider .container
+{
+	height: 375px;
+	overflow: hidden;
+	position: relative;
+	width: 500px;
+}
+#loopedSlider .container div
+{
+	display: none;
+	height: 375px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 500px;
+}
+#loopedSlider .pagination
+{
+	bottom: 0;
+	height: 20px;
+	line-height: 30px;
+	margin: 0;
+	padding: 5px;
+	position: absolute;
+	right: 10px;
+	text-align: right;
+	z-index: 1;
+}
+#loopedSlider .pagination li
+{
+	float: left;
+}
+#loopedSlider ul
+{
+	list-style-type: none;
+}
+#detail div
+{
+	display:none;
+}
+#divImgplayer fieldset
+{
+	width:33%;
+}
+#fsPlayerManager
+{
+	
+}
+#fsPlayerManager p
+{
+	height:20px;
+	margin:1px;
+	padding:1px;
+	text-align:center;
+}
+#fsPlayerManager input
+{
+	height:18px;
+	width:120px;
+}
+#divImgplayer a
+{
+	display:inline;
+	float:left;
+	height:80px;
+	margin:10px;
+	width:80px;
+}
+#divImgplayer a.im-img
+{
+	background:url(/img/im-img.png) no-repeat;
+}
+#divImgplayer a.im-tab
+{
+	background:url(/img/im-tab.png) no-repeat;
+}
+#divImgplayer a.im-pager
+{
+	background:url(/img/im-pager.png) no-repeat;
+}
+
+#fsPlayer input
+{
+	height:18px;
+}
+/*-----------
+
+-*------------------------------------------------------------end
+
+-*---------------------*/
+
+/* --------------- 
+
+ * temp grid 
+
+-* ------------------------------------*/
+
+/*  1:3布局 */
+.ct1_3
+{
+}
+.ct1_3 .col0
+{
+	margin-right: 1%;
+	width: 24%;
+}
+.ct1_3 .col1
+{
+	width: 75%;
+}
+/*  3:1布局 */
+.ct3_1
+{
+}
+.ct3_1 .col0
+{
+	margin-right: 1%;
+	width: 74%;
+}
+.ct3_1 .col1
+{
+	width: 25%;
+}
+/*  1:2:1布局 */
+.ct1_2_1
+{
+}
+.ct1_2_1 .col0
+{
+	margin-right: 1%;
+	width: 24%;
+}
+.ct1_2_1 .col1
+{
+	margin-right: 1%;
+	width: 49%;
+}
+.ct1_2_1 .col2
+{
+	width: 25%;
+}
+/*  1:1:2布局 */
+.ct1_1_2
+{
+}
+.ct1_1_2 .col0
+{
+	margin-right: 1%;
+	width: 24%;
+}
+.ct1_1_2 .col1
+{
+	margin-right: 1%;
+	width: 24%;
+}
+.ct1_1_2 .col2
+{
+	width: 50%;
+}
+/*  2:1:1布局 */
+.ct2_1_1
+{
+}
+.ct2_1_1 .col0
+{
+	margin-right: 1%;
+	width: 49%;
+}
+.ct2_1_1 .col1
+{
+	margin-right: 1%;
+	width: 24%;
+}
+.ct2_1_1 .col2
+{
+	width: 25%;
+}
+/*     自由布局   */
+.ct1
+{
+	height: 2000px;
+	position: relative;
+}
+.ct1 .col0
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+.ct1 .col0 .mode_box
+{
+	float: left;
+	width: 33%;
+}
+/*-----------
+
+-*------------------------------------------------------------end
+
+-*---------------------*/

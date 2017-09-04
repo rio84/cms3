@@ -1,0 +1,48 @@
+﻿/*页面颜色*/
+/*画布背景颜色*/
+.bg_layout1{background:#CCCCCC;}
+.bg_layout2{background:#0A3176;}
+.bg_layout3{background:#F7FADB;}
+
+/*头部背景颜色*/
+.bg_header1{background:#FF94B4;}
+.bg_header2{background:#47C6C4;}
+.bg_header3{background:#C7ED56;}
+
+/*头部边框颜色*/
+.bd_title1{border:solid 1px #D15A80;}
+.bd_title2{border:solid 1px #128232;}
+.bd_title3{border:solid 1px #BBE730;}
+
+/*导航栏边框和外背景颜色*/
+.bg_bd_nav1{border:solid 1px #ED1200;background:#FFC8D7;}
+.bg_bd_nav2{border:solid 1px #138132;background:#07CAAC;}
+.bg_bd_nav3{border:solid 1px #BFF59A;background:#BFF59A;}
+
+/*导航栏内背景颜色*/
+.bg_nav1{background:#FFEDF2;}
+.bg_nav2{background:#7CEAD3;}
+.bg_nav3{background:#ECFCE0;}
+
+/*头部操作背景颜色*/
+.bg_spaceop1{background:#F55E8C;}
+.bg_spaceop2{background:#2C87C9;}
+.bg_spaceop3{background:#396506;}
+
+
+/*页面模块样式*/
+/*颜色样式1*/
+.mode_box1{border:solid 1px #ED1200;background:white;}
+.mode_title1{background:url(../img/mode_title1.gif) repeat-x left top;border-bottom:solid 1px #FFCFDE;}
+.box_body1{}
+
+/*颜色样式2*/
+.mode_box2{border:solid 1px #97D0EE;background:#5190DE;}
+.mode_title2{background:url(../img/mode_title2.gif) repeat-x left top;border-bottom:solid 1px #674E0C;}
+.box_body2{}
+
+/*颜色样式3*/
+.mode_box3{border:solid 1px #C3E96E;background:#FFFCC9;}
+.mode_title3{background:url(../img/mode_title3.gif) repeat-x left top;border-bottom:solid 1px #674E0C;}
+.box_body3{}
+

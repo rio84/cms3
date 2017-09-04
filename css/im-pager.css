@@ -1,0 +1,115 @@
+#featured
+{
+	width: 695px;
+	position: relative;
+	border: 5px solid #ccc;
+	height: 250px;
+	background: #fff;
+	margin-left: 5px;
+	margin-top: 4px;
+}
+#featured ul.ui-tabs-nav
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float:right;
+}
+#featured ul.ui-tabs-nav li
+{
+	padding: 1px 0;
+	padding-right: 5px;
+	font-size: 12px;
+	color: #666;
+	float: left;
+}
+#featured ul.ui-tabs-nav li span
+{
+	font-size: 12px;
+	font-family: Verdana;
+	line-height: 18px;
+}
+
+#featured li img, #featured li span.nav_title
+{
+	display: none;
+}
+
+#featured li.ui-tabs-nav-item a
+{
+	display: block;
+	height: 20px;
+	color: #fff;
+	background: #000;
+	line-height: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+#featured li.ui-tabs-nav-item a:hover
+{
+	background: #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a
+{
+	background: #0049D0;
+}
+
+
+#featured .ui-tabs-panel
+{
+	width: 445px;
+	height: 20px;
+	background: #999;
+	position: relative;
+}
+#featured .ui-tabs-panel .info
+{
+	position: absolute;
+	top: 180px;
+	left: 0;
+	height: 70px;
+	background: url(/img/images/transparent-bg.png);
+	width: 445px;
+}
+#featured .info h2
+{
+	font-size: 18px;
+	font-family: Georgia, serif;
+	color: #fff;
+	padding: 5px;
+	margin: 0;
+	overflow: hidden;
+}
+#featured .info p
+{
+	margin: 0 5px;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 15px;
+	color: #f0f0f0;
+}
+#featured .info a
+{
+	text-decoration: none;
+	color: #fff;
+}
+#featured .info a:hover
+{
+	text-decoration: underline;
+}
+#featured .ui-tabs-hide
+{
+	display: none;
+}
+
+#featured div img
+{
+	width: 695px;
+	height: 250px;
+}

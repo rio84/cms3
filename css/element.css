@@ -1,0 +1,56 @@
+﻿/*标签元素*/
+html,body { font:12px Arial, Helvetica, sans-serif;font-weight:200;}
+a img {border:none;}
+a { color: black; text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { font-weight: bold; }
+em, dfn { font-style: italic; }
+dfn { font-weight: bold; }
+ul li{list-style:none;}
+input{height:20px;line-height:20px;vertical-align:middle;margin :0;padding :0; background :white;}
+select{width:200px;height:22px;line-height:22px;background :white;margin :0;padding :0;}
+
+/*布局元素*/
+#layout{width:100%;}
+.main{width:960px;margin:0 auto;text-align:left;}/*设计居中*/
+#header{margin-top:30px;width:960px;position:relative;float:left;}
+#content{width:960px;float:left; position:relative; }
+#footer{_height:100px;min-height:100px;width:960px;float:left;}
+#col_3_l,#col_3_m,#col_3_r,#col_1,#col_2_l,#col_2_r{height:auto;_height:1000px;min-height:1000px;}
+#col_3_m{margin:0 5px;}
+#col_2_r{margin:0 0 0 5px;}
+#col_1{position:relative;}
+
+
+/*页面头部——空间名称和操作*/
+#title{position:relative;height:150px;}
+#spaceinfo{font-size:14px;color:white;position:absolute;top:10px;left:10px;vertical-align:middle;}
+#spacelogo img{width:16px;height:16px;vertical-align:middle;}
+#spacename{font-size:16px;line-height:16px;font-weight:700;vertical-align:middle;display:inline;}
+#spacelink{font-size:9px;}
+#spacelink a{color:white;padding-left:10px;vertical-align:middle;}
+#spaceop{position:absolute;bottom:10px;right:10px;}
+#spaceop li{float:left;margin-right:6px;display:inline;}
+#spaceop li a{display:block;padding:4px 10px;color:white;line-height:12px;}
+
+/*页面底部*/
+#copyright{text-align:center;margin-top:20px;color:#b7b7b7;font-size:12px;line-height:12px;}
+#copyright ul{height:16px;}
+#copyright li{display:inline;}
+#copyright p{margin-top:4px;height:16px;}
+#copyright a{color:#666666;}
+#copyright li a{padding:0 4px;}
+#copyright a:hover{color:red;}
+
+/*导航栏*/
+#custom_nav{float:left;cursor:move;}
+#custom_nav li{float:left;margin:3px 3px 3px 0px;display:inline;}
+#custom_nav .firstnav{margin-left:3px;}
+#custom_nav li a{float:left;height:12px;line-height:12px;display:block;padding:7px 10px;}
+
+/*页面模块*/
+.mode_box{ min-width:100px;_height:100px;min-height:30px;margin:5px 0px;overflow:hidden; z-index:1;}
+.mode_title{height:23px; line-height:23px;}
+.master_title{height:25px;line-height:25px;}
+
+

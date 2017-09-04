@@ -1,0 +1,36 @@
+﻿#jDialog .jd-title
+{
+	background:#FD810F url(../jDialog-Style/bg.gif) repeat-x; /*url(../jDialog-Style/jdialogtitlecenter.jpg) repeat-x*/
+	color:#fff;
+	font-weight:700;
+	height:25px;
+}
+#jDialog .jd-title .jdleft
+{
+	/*background:#FD810F url(../jDialog-Style/tab_hover_left.jpg) no-repeat left top;
+	background:url(../jDialog-Style/jdialogtitleleft.jpg) no-repeat;*/
+	float:left;
+	height:25px;
+	width:7px;
+}
+#jDialog .jd-title .jdright
+{
+	/*background:#FD810F url(../jDialog-Style/tab_hover_right.jpg) no-repeat right top;
+	background:url(../jDialog-Style/jdialogtitleright.jpg) no-repeat;*/
+	float:right;
+	height:25px;
+	width:7px;
+}
+#jDialog .jd-title .jdclose
+{
+	background:url(../jDialog-Style/bg.gif) no-repeat 4px -36px;
+	cursor:pointer;
+	float:right;
+	height:17px;
+	margin:2px 0 0 2px;
+	width:17px;
+}
+#jDialog .jd-title .jdclose:hover
+{
+	background-position:-17px -36px;
+}

@@ -1,0 +1,242 @@
+﻿
+/*-------------------------------------
+              body
+-------------------------------------*/
+
+body{}
+
+/*-------------------------------------
+              画布
+-------------------------------------*/
+.ui_layout{background:url(../img/bg.gif);}
+
+
+/*------------------------------------
+               浮动和内容区域
+-------------------------------------*/
+.ui_contentarea{background:#FFFFFF;width:1000px;}
+.ui_floatarea{background:#FFFFFF;width:1000px;}
+
+/*content*/
+.ui_content{}
+
+
+/*------------------------------------
+                col
+-------------------------------------*/
+.ui_col{}
+.ui_sub_col{}
+
+
+
+
+/*------------------------------------
+                模块
+-------------------------------------*/
+/*工作区*/
+.ui_mwork{}
+
+/*普通模块*/
+.ui_mnormal{}
+.ui_mnormal_title{}
+.ui_mnormal_body{}
+.ui_mnormal_foot{}
+.ui_mnormal_subtitle{font-size:13px;margin-left:40px;font-weight:700;height:15px;line-height:15px;padding-top:8px;}
+/*Tab模块*/
+.ui_mtab{}
+.ui_mtab_title{}
+.ui_mtab_body{}
+.ui_mtab_foot{}
+
+/*Flash模块*/
+.ui_mflash{}
+.ui_mflash_title{}
+.ui_mflash_body{}
+.ui_mflash_foot{}
+
+/*视频模块*/
+.ui_mvideo{}
+.ui_mvideo_title{}
+.ui_mvideo_body{}
+.ui_mvideo_foot{}
+
+/*图片播放器模块*/
+.ui_mphoto{}
+.ui_mphoto_title{}
+.ui_mphoto_body{}
+.ui_mphoto_foot{}
+
+/*登录模块*/
+.ui_mlogin{}
+.ui_mlogin_title{}
+.ui_mlogin_body{}
+.ui_mlogin_foot{}
+
+/*搜索模块*/
+.ui_msearch{}
+.ui_msearch_title{}
+.ui_msearch_body{}
+.ui_msearch_foot{}
+
+/*Tip模块*/
+.ui_mtip{}
+.ui_mtip_title{}
+.ui_mtip_body{}
+.ui_mtip_foot{}
+
+/*对话框*/
+.ui_mdialog{}
+.ui_mdialog_title{}
+.ui_mdialog_body{}
+.ui_mdialog_foot{}
+
+/*翻页模块*/
+.ui_mpage{}
+.ui_mpage_title{}
+.ui_mpage_body{}
+.ui_mpage_foot{}
+
+/*菜单模块*/
+.ui_mmenu{}
+.ui_mmenu_title{}
+.ui_mmenu_body{}
+.ui_mmenu_foot{}
+
+
+/*------------------------------首页个别样式-----------------------------*/
+
+/*———————————————————
+                  content
+———————————————————*/
+.ui_content_box{height:650px;}
+
+/*———————————————————
+             相似模块共用类
+———————————————————*/
+.ui_mnormal_bd{border:1px solid #CCCCCC;}
+.ui_mnormal_title_text{font-weight:700;line-height:26px;}
+.ui_mnormal_title_bd{border-bottom:1px solid #CCCCCC;}
+.ui_mnormal_title_box{height:26px;}
+.ui_mnormal_subtitle_box{margin-left:40px;height:26px;}
+.ui_mnormal_subtitle_text{font-size:13px;line-height:26px;}
+.ui_mnormal_subtitle_box_v9{float:right;display:inline;padding:10px 38px 0 38px;font-size:18px;}
+.ui_mnormal_subtitle_box_v9 a:hover{text-decoration:none;}
+.ui_mnormal_subtitle_bg_v9{background:url(../img/more.gif) no-repeat 25px 8px;}
+.ui_mnormal_subtitle_bg_v10{background:url(../img/more.gif) no-repeat 35px 3px;}
+
+/*———————————————————
+                 登录模块
+———————————————————*/
+.ui_mlogin_box{width:230px;margin:2px 0 0 2px;text-align:center;}
+
+/*———————————————————
+             普通模块——投票
+———————————————————*/
+.ui_mnomal_box_v3{width:225px;height:210px;margin:2px 0 0 2px;}
+.ui_mnomal_bg_v3{background:#FBFBFB;}
+.ui_mnormal_title_bg_v3{background:url(../img/voteicon.gif) no-repeat 10px center;}
+.ui_mnormal_foot_bg_v3{background:url(../img/votebutton.gif) no-repeat center center;}
+.ui_mnormal_foot_box_v3{text-align:center;padding:4px;margin-top:3px;}
+.ui_mnormal_foot_text_v3 a{color:#FFFFFF;}
+
+/*———————————————————
+             普通模块——友情链接
+———————————————————*/
+.ui_mnomal_box_v4{width:225px;height:190px;margin:2px 0 0 2px;}
+.ui_mnormal_title_bg_v4{background:url(../img/linkicon.gif) no-repeat 10px center;}
+
+/*———————————————————
+            页脚,页脚链接和菜单链接
+———————————————————*/
+.ui_content_text_v1{color:#FFFFFF;line-height:18px;text-align:center;}
+.ui_content_bg_v1{background:#DC131B;}
+
+.ui_mormal_body_box_v1{margin-left:377px;height:23px;padding-top:5px;}
+
+/*———————————————————
+                 页面头部
+———————————————————*/
+.ui_mormal_body_box_v2{height:100px;}
+.ui_mormal_body_bg_v2{background:url(../img/logo.gif) no-repeat;}
+.ui_mphoto_box_v1{margin-top:2px;}
+
+/*———————————————————
+                  菜单模块
+———————————————————*/
+.ui_mmenu_box_v1{width:560px;}
+.ui_mmenu_text_v1{color:#FFFFFF;overflow:hidden;}
+
+
+/*———————————————————以下为工作区部分———————————————————*/
+.ui_mwork_box{width:770px;_height:600px;min-height:600px;}
+
+/*———————————————————
+             普通模块——公司介绍
+———————————————————*/
+.ui_mnormal_box_v5{width:765px;height:168px;}
+.ui_mnormal_bg_v5{background:url(../img/pic1.gif) no-repeat 20px 40px;}
+.ui_mnormal_title_bg_v5{background:url(../img/companyintro.gif) no-repeat 0 7px;}
+.ui_mnormal_title_box_v5{height:30px;}
+.ui_mnormal_subtitle_box_v5{height:15px;line-height:15px;padding-top:10px;}
+
+/*———————————————————
+             普通模块——产品应用
+———————————————————*/
+.ui_mnormal_box_v6{width:435px;}
+.ui_mnormal_title_bg_v6{background:url(../img/proapplytitle.gif) no-repeat 8px 1px;}
+.ui_mnormal_title_box_v6{height:30px;}
+.ui_mnormal_title_text_v6{color:#FFFFFF;}
+
+/*———————————————————
+             普通模块——公司新闻
+———————————————————*/
+.ui_mnormal_box_v7{width:323px;}
+.ui_mnormal_title_bg_v5{background:url(../img/companyintro.gif) no-repeat 0 7px;}
+.ui_mnormal_title_box_v5{height:30px;}
+
+/*———————————————————
+             普通模块——产品展示
+———————————————————*/
+.ui_mnormal_box_v8{width:765px;}
+.ui_mnormal_title_bg_v8{background:url(../img/proshowtitle.gif) no-repeat 0 7px;}
+
+
+
+/*————————————————产品列表页个别样式——————————————*/
+/*--------------------------------------
+                 普通模块——列表信息
+----------------------------------------*/
+.ui_mnormal_box_v11{width:728px;margin-left:20px;}
+.ui_mnormal_subtitle_box_v11{float:right;display:inline;margin-right:85px;}
+.ui_mnormal_title_bg_v11{background:#F9EAF1;}
+.ui_mnormal_title_box_v11{height:28px;line-height:28px;}
+.ui_mnormal_box_v11 .issue_time{margin-right:82px;}
+.ui_mnormal_box_v11 dd{height:30px;line-height:30px;}
+
+/*--------------------------------------
+                 普通模块——导航栏
+----------------------------------------*/
+.ui_mnormal_body_text_v12{color:#A5ACB2;}
+.ui_mnormal_body_text_v12 ul{margin-left:26px;}
+.ui_mnormal_body_text_v12 li{float:left;display:inline;height:22px;line-height:21px;}
+.ui_mnormal_body_text_v12 a{display:block;color:#A5ACB2;}
+.ui_mnormal_body_box_v12{margin:10px 0 10px 10px;}
+
+
+/*————————————————搜索结果页个别样式——————————————*/
+.ui_content_box_v1{height:600px;}
+
+/*--------------------------------------
+                 普通模块——产品应用
+----------------------------------------*/
+.ui_mnormal_box_v13{width:770px;}
+.ui_mnormal_box_v13 .pro_mode{width:150px;height:150px;margin-left:20px;}
+.ui_mnormal_box_v13 img{width:144px;height:112px;}
+
+/*--------------------------------------
+                 翻页模块——产品应用
+----------------------------------------*/
+.ui_mpage_box_v1{margin-top:10px;}
+.ui_mpage_body p{float:left;display:inline;height:25px;line-height:25px;}
+.ui_mpage_body .turnpage{float:right;display:inline;margin-right:20px;}
+.ui_mpage_body_box_v1{margin-left:20px;}

@@ -1,0 +1,182 @@
+﻿/*-------------------------------------
+              画布
+-------------------------------------*/
+.fr_layout{width:100%;margin:0 auto;text-align:center;}
+
+/*-------------------------------------
+              浮动和内容区域
+-------------------------------------*/
+.fr_contentarea{margin:0 auto;text-align:left;}
+.fr_floatarea{margin:0 auto;}
+
+/*-------------------------------------
+              content
+----------------------------------------*/
+.fr_content_free{position: relative;_height:30px;min-height:30px;clear:both;}
+.fr_content_1{position: relative;_height:30px;min-height:30px;clear:both;}
+.fr_content_1_3{position: relative;_height:30px;min-height:30px;clear:both;}
+.fr_content_3_1{position: relative;_height:30px;min-height:30px;clear:both;}
+.fr_content_1_2_1{position: relative;_height:30px;min-height:30px;clear:both;}
+.fr_content_1_1_2{position: relative;_height:30px;min-height:30px;clear:both;}
+.fr_content_2_1_1{position: relative;_height:30px;min-height:30px;clear:both;}
+
+/*------------------------------------
+               col
+------------------------------------*/
+/*自由*/
+.fr_content_free .fr_col_0,
+.fr_content_free .fr_sub_col_0
+{width: 100%;height: 100%;position: relative;float:left;display:inline;_height:30px;min-height:30px;}
+
+/*1列布局*/
+.fr_content_1 .fr_col_0,
+.fr_content_1 .fr_sub_col_0
+{width:100%;float:left;display:inline;_height:30px;min-height:30px;}
+
+/*1：3布局*/
+.fr_content_1_3 .fr_col_0,
+.fr_content_1_3 .fr_sub_col_0
+{margin-right: 1%;width: 24%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_1_3 .fr_col_1,
+.fr_content_1_3 .fr_sub_col_1
+{width: 75%;float:left;display:inline;_height:30px;min-height:30px;}
+
+/*3:1布局*/
+.fr_content_3_1 .fr_col_0,
+.fr_content_3_1 .fr_sub_col_0
+{margin-right: 1%;width: 74%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_3_1 .fr_col_1,
+.fr_content_3_1 .fr_sub_col_1
+{width: 25%;float:left;display:inline;_height:30px;min-height:30px;}
+
+/*1:2:1布局 */
+.fr_content_1_2_1 .fr_col_0,
+.fr_content_1_2_1 .fr_sub_col_0
+{margin-right: 1%;width: 24%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_1_2_1 .fr_col_1,
+.fr_content_1_2_1 .fr_sub_col_1
+{margin-right: 1%;width: 49%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_1_2_1 .fr_col_2,
+.fr_content_1_2_1 .fr_sub_col_2
+{width: 25%;float:left;display:inline;_height:30px;min-height:30px;}
+
+/* 1:1:2布局 */
+.fr_content_1_1_2 .fr_col_0,
+.fr_content_1_1_2 .fr_sub_col_0
+{margin-right: 1%;width: 24%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_1_1_2 .fr_col_1,
+.fr_content_1_1_2 .fr_sub_col_1
+{margin-right: 1%;width: 24%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_1_1_2 .fr_col_2,
+.fr_content_1_1_2 .fr_sub_col_2
+{width: 50%;float:left;display:inline;_height:30px;min-height:30px;}
+
+/* 2:1:1布局 */
+.fr_content_2_1_1 .fr_col_0,
+.fr_content_2_1_1 .fr_sub_col_0
+{margin-right: 1%;width: 49%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_2_1_1 .fr_col_1,
+.fr_content_2_1_1 .fr_sub_col_1
+{margin-right: 1%;width: 24%;float:left;display:inline;_height:30px;min-height:30px;}
+
+.fr_content_2_1_1 .fr_col_2,
+.fr_content_2_1_1 .fr_sub_col_2
+{width: 25%;float:left;display:inline;_height:30px;min-height:30px;}
+
+/* 浮动区的列*/
+.fr_col{}
+
+/*------------------------------------
+                模块
+-------------------------------------*/
+/*工作区*/
+.fr_mwork{}
+
+/*普通模块*/
+.fr_mnormal{}
+.fr_mnormal_title{}
+.fr_mnormal_body{}
+.fr_mnormal_foot{}
+
+/*Tab模块*/
+.fr_mtab{}
+.fr_mtab_title{}
+.fr_mtab_body{}
+.fr_mtab_foot{}
+
+/*Flash模块*/
+.fr_mflash{}
+.fr_mflash_title{}
+.fr_mflash_body{}
+.fr_mflash_foot{}
+
+/*视频模块*/
+.fr_mvideo{}
+.fr_mvideo_title{}
+.fr_mvideo_body{}
+.fr_mvideo_foot{}
+
+/*图片播放器模块*/
+.fr_mphoto{}
+.fr_mphoto_title{}
+.fr_mphoto_body{}
+.fr_mphoto_foot{}
+
+/*登录模块*/
+.fr_mlogin{}
+.fr_mlogin_title{}
+.fr_mlogin_body{}
+.fr_mlogin_foot{}
+
+/*搜索模块*/
+.fr_msearch{}
+.fr_msearch_title{}
+.fr_msearch_body{}
+.fr_msearch_foot{}
+
+/*Tip模块*/
+.fr_mtip{}
+.fr_mtip_title{}
+.fr_mtip_body{}
+.fr_mtip_foot{}
+
+/*对话框*/
+.fr_mdialog{}
+.fr_mdialog_title{}
+.fr_mdialog_body{}
+.fr_mdialog_foot{}
+
+/*翻页模块*/
+.fr_mpage{}
+.fr_mpage_title{}
+.fr_mpage_body{}
+.fr_mpage_foot{}
+
+/*菜单模块*/
+.fr_mmenu{}
+.fr_mmenu_title{}
+.fr_mmenu_body{}
+.fr_mmenu_foot{}
+
+
+/*------------------------------------
+  自由模式下的模块默认超出部分不显示
+-------------------------------------*/
+.fr_content_free .fr_mnormal,
+.fr_content_free .fr_mtab,
+.fr_content_free .fr_mflash,
+.fr_content_free .fr_mvideo,
+.fr_content_free .fr_mphoto,
+.fr_content_free .fr_mlogin,
+.fr_content_free .fr_msearch,
+.fr_content_free .fr_mtip,
+.fr_content_free .fr_mdialog,
+.fr_content_free .fr_mpage
+{overflow:hidden;}

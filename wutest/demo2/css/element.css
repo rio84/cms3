@@ -1,0 +1,110 @@
+﻿/*首页*/
+
+/*———————————————————
+            页脚,页脚链接和菜单
+
+———————————————————*/
+.data_links li{float:left;display:inline;}
+.data_links a{color:#FFFFFF;padding:0 5px;}
+.data_links a:hover{color:#FFFF00;}
+.data_copyright p{width:100%;}
+
+
+/*———————————————————
+                 页面头部
+———————————————————*/
+.data_logo h1{text-indent:-9999px;}
+.data_photo{font-size:0;}
+.data_photo img{vertical-align:text-bottom;}
+
+
+
+/*———————————————————
+                 登录模块
+———————————————————*/
+.data_login p{height:35px;}
+.login_reg_button{margin-left:33px;}
+.login_reg_button a{display:block;float:left;height:25px;background:url(../img/votebutton.gif) no-repeat;padding:5px 30px 0 30px;color:white;text-align:center;}
+.login_reg_button a:hover{text-decoration:none;}
+.input_box_v1{width:100px;height:18px;line-height:18px;border:solid 1px #CCCCCC;margin-left:20px;}
+.tab1,.tab2{float:left;display:inline;height:35px;width:110px;line-height:35px;font-weight:700;}
+.tab1 a:hover,.tab2 a:hover{text-decoration:none;}
+.tab_active{color:red;}
+.ml75{margin-left:75px;}
+.data_login p.bottomline{height:25px;padding-bottom:5px;}
+.data_login_bg_v1{background:url(../img/login.gif) no-repeat;}
+.data_login_bg_v2{background:url(../img/login2.jpg) no-repeat;}
+
+
+/*———————————————————
+             普通模块——投票
+———————————————————*/
+.data_vote dl{margin-top:5px;}
+.data_vote dt{margin-left:35px;}
+.data_vote dd{border-bottom:1px dashed #CCCCCC;margin:0 20px;}
+
+/*———————————————————
+             普通模块——友情链接
+———————————————————*/
+.data_friendlinks dl{margin-top:5px;}
+.data_friendlinks dd{border-bottom:1px dashed #CCCCCC;margin:0 20px;background:url(../img/linkicon2.gif) no-repeat left 3px;text-indent:25px;}
+.data_friendlinks dd a:hover{color:#0000FF;}
+.emphasize{color:#DC131B;}
+
+
+/*———————————————————
+             普通模块——公司介绍
+———————————————————*/
+.data_company_intro p{margin:15px 35px 0 225px;line-height:20px;}
+
+/*———————————————————
+             普通模块——产品应用
+———————————————————*/
+.data_product_apply dd{margin:0 0 0 20px;background:url(../img/proapplyicon.gif) no-repeat left 6px;padding-left:25px;border-bottom:1px dashed #CCCCCC;}
+.issue_time{float:right;display:inline;margin-right:5px;}
+.data_product_apply a:hover{color:blue;}
+
+
+/*———————————————————
+             普通模块——公司新闻
+———————————————————*/
+.data_company_news dd{margin:0 25px;background:url(../img/proapplyicon.gif) no-repeat left 6px;text-indent:25px;border-bottom:1px dashed #CCCCCC;}
+.data_company_news a:hover{color:blue;}
+
+/*———————————————————
+             普通模块——产品展示
+———————————————————*/
+.data_pro_show{margin:5px 0 0 5px;}  
+/*图片在上方，文字在下方*/
+.pro_mode{font-size:0;float:left;display:inline;margin:0px 18px 0 0;text-align:center;width:134px;height:135px;}
+.pro_mode img{vertical-align:text-bottom;border:solid 1px #CCCCCC;width:128px;height:98px;}
+.pro_mode .pro_name{font-weight:700;font-size:12px;line-height:25px;height:25px; vertical-align:middle;}
+
+
+/*产品列表页*/
+/*--------------------------------------
+                 搜索框
+----------------------------------------*/
+.search_box{width:748px;height:40px;}
+.search_box div{display:inline;float:right;padding:0px 2px; vertical-align:middle;}
+.search_font{line-height:23px;}
+.search_box .clear{float:none;}
+
+
+/*--------------------------------------
+                 普通模块——导航栏
+----------------------------------------*/
+.data_guide{background:url(../img/nav.gif) no-repeat 0 0px;width:748px;height:22px;line-height:21px;border-bottom:solid 1px;}
+
+
+/*--------------------------------------
+                 普通模块——列表
+----------------------------------------*/
+.data_product_apply_bg dd{background:url(../img/proapplyicon.gif) no-repeat left 10px;}
+
+/*--------------------------------------
+                 翻页模块——产品应用
+----------------------------------------*/
+.turnpage a.ui_text_v1{color:#CCCCCC; text-decoration:none;}
+.turnpage a.ui_text_v1:hover{color:#CCCCCC; }
+.turnpage a:hover{text-decoration:none;color:red;}

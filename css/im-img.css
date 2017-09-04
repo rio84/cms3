@@ -1,0 +1,130 @@
+#featured
+{
+	width: 600px;
+	position: relative;
+	border: 5px solid #ccc;
+	height: 420px;
+	background: #fff;
+}
+#featured ul.ui-tabs-nav
+{
+	position: absolute;
+	top: 315px;
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0 0;
+	width: 100%;
+}
+#featured ul.ui-tabs-nav li
+{
+	float:left;
+	padding: 1px 0;
+	padding-top: 13px;
+	font-size: 12px;
+	color: #666;
+}
+#featured ul.ui-tabs-nav li img
+{
+	float: left;
+	margin: 2px 5px;
+	background: #fff;
+	padding: 2px;
+	border: 1px solid #eee;
+	height:50px;
+	width:80px;
+}
+#featured ul.ui-tabs-nav li span
+{
+	font-size: 11px;
+	font-family: Verdana;
+	line-height: 18px;
+}
+#featured li.ui-tabs-nav-item a
+{
+	display: block;
+	height: 60px;
+	color: #333;
+	background: #fff;
+	line-height: 20px;
+}
+#featured li.ui-tabs-nav-item a:hover
+{
+	background: #f2f2f2;
+}
+#featured li.ui-tabs-selected
+{
+	background: url(/img/images/selected-item2.gif) center top no-repeat;
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a
+{
+	background: #ccc;
+}
+#featured .ui-tabs-panel
+{
+	width: 600px;
+	height: 250px;
+	background: #999;
+	position: relative;
+	text-align:center;
+}
+#featured .ui-tabs-panel .info
+{
+	position: absolute;
+	top: 250px;
+	left: 0;
+	height: 70px;
+	background: url(/img/images/transparent-bg.png);
+}
+#featured .nav_title
+{
+	display:none;
+}
+#featured .nav_index
+{
+	display:none;
+}
+#featured .info h2
+{
+	font-size: 18px;
+	font-family: Georgia, serif;
+	color: #fff;
+	padding: 5px;
+	margin: 0;
+	overflow: hidden;
+}
+#featured .info p
+{
+	margin: 0 5px;
+	font-family: Verdana;
+	font-size: 11px;
+	line-height: 15px;
+	color: #f0f0f0;
+}
+#featured .info a
+{
+	text-decoration: none;
+	color: #fff;
+}
+#featured .info a:hover
+{
+	text-decoration: underline;
+}
+#featured .ui-tabs-hide
+{
+	display: none;
+}
+#featured li.prev
+{
+	background:url(/img/images/director50.gif) no-repeat 0 13px;
+	cursor:pointer;
+	height:60px;
+	width:16px;
+}
+#featured li.next
+{
+	background:url(/img/images/director50.gif) no-repeat -16px 13px;
+	cursor:pointer;
+	height:60px;
+	width:16px;
+}
+
